@@ -1,0 +1,42 @@
+
+//-----------------------------------------register
+POST http://localhost:3001/register
+Content-Type: Application/json
+
+{
+  "uname":"rajat4",
+  "password":"4444"
+}
+###
+
+
+//----------------------------------------login
+POST http://localhost:3001/login
+Content-Type: Application/json
+
+{
+  "uname":"rajat1",
+  "password":"1111"
+}
+###
+
+
+//------------------------------------------get posts data
+GET http://localhost:3001/posts
+Authorization: Bearer 
+###
+
+
+
+//-------------------------------------------new token
+GET http://localhost:3001/newtoken/:rt
+###
+
+
+//-------------------------------------------logout
+DELETE http://localhost:3001/logout/:rt
+###
+
+
+
+
